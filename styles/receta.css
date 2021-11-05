@@ -1,0 +1,19 @@
+/*********** hojas de estilo de la receta de conina *********/
+@font-face {
+    font-family: pepe;
+    src: url(../font/Montserrat/Montserrat-Medium.ttf);
+}
+body{background-image: url(../imagen/mantel.jpg);}
+
+#container{ width:80%;
+            background-color:rgba(245, 245, 245, 0.596);
+            margin: auto;
+            padding: 2%;
+            font-family:pepe;
+            font-size: large;}
+#container h1{text-align: center;}
+#container h2 {background-color:rgb(238, 28, 41);
+                padding-left: 10px;}
+#container dl dt {font-weight: bold;}
+#container iframe { display: block/* para obligar a que trabaje como un bloque */
+                    ;margin: auto;}
